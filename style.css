@@ -1,0 +1,140 @@
+body {
+  background-color: #eceef1;
+  color: #4c4c4c;
+}
+
+header {
+  text-align: center;
+}
+
+.signin {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.signin * {
+    align-self: center; 
+    margin: 0 4px;   
+}
+
+.signin-button {
+    height: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+main {
+    background-color: white;
+    width: 380px;
+    margin: 0 auto;
+    padding: 16px;
+    border: 1px solid #c7c7c7;
+    border-bottom: none;
+}
+
+.form-header {
+    margin: 16px 0px;
+}
+
+.form-header span {
+    font-size: 16px;
+}
+
+.link {
+    text-decoration: none;
+    color: #0077C5;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+fieldset {
+    border: none;
+    margin: 16px 0px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #C1C5C8;
+    border-radius: 4px;
+    margin-top: 8px;
+    /* padding: 0px 8px; */
+    font-size: 14px;
+}
+
+input:focus {
+    outline: 0;
+    border-color: #52A8EC;
+    box-shadow: 0 1px 1px rgba(0,0,0,.075) inset, 0 0 8px rgba(82,168,236,.6);
+}
+
+.tel-description {
+    font-size: 12px;
+}
+
+.submit-button {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    height: 44px;
+}
+
+.agree-terms{
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    font-style: italic;
+
+}
+
+footer{
+    text-align: center;
+    display: block;
+    font-size :14px;
+    margin: 32px 0;
+}
+
+.privacy-policy{
+    background-color: #eceef1;
+    width: 380px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 16px;
+    font-size: 10px !important;
+    font-weight: 400;
+    font-family: Helvetica;
+    border: 1px solid #c7c7c7;
+    border-top: none;
+
+}
+
+.learn-more{
+    font-size: 12px;
+}
+
+.footer-links a{
+    margin: 0 2px;
+    text-decoration: none;
+    color: #4c4c4c;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
+}
+
+.page-footer {
+    margin-top: 125px;
+}
+
+.primary {
+    background-color: #0077c5;
+    color: white;
+}
